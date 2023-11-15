@@ -1,0 +1,145 @@
+							 
+
+    Podaj typ/specyfikę aplikacji Node.js. Jakie są wymagania, aby móc połączyć się z Bazą danych lub wysyłać wiadomości pocztą e-mail?						 
+
+    Opisz dostępne metody dla systemu pocztowego w Node.js.							 
+
+    Porównaj metody i podaj ich wady i zalety.			 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ad.1  
+
+ 
+
+ 
+
+ 
+
+Ad.2 
+
+ 
+
+Nodemailer: 
+
+    Opis: Nodemailer to popularna biblioteka w Node.js, która umożliwia wysyłanie e-maili za pomocą protokołów SMTP lub przez zewnętrzne usługi e-mail, takie jak Gmail czy SendGrid. 
+
+ 
+
+SendGrid: 
+
+    Opis: SendGrid to usługa do wysyłania e-maili, ale dostępna jest również biblioteka Node.js, która ułatwia integrację z ich API. 
+
+ 
+
+SMTP: 
+
+    Opis: Możesz używać modułów Node.js, które obsługują protokół SMTP do bezpośredniej komunikacji z serwerem SMTP. 
+
+ 
+
+Gmail API: 
+
+    Opis: Możesz korzystać z oficjalnego API Gmail do wysyłania e-maili. 
+
+	 
+
+ 
+
+Ad.3 
+
+ 
+
+Nodemailer: 
+
+Zalety: 
+
+    Łatwy w użyciu i dobrze udokumentowany. 
+
+    Obsługuje różne usługi e-mail, w tym SMTP i popularne serwisy zewnętrzne. 
+
+    Daje kontrolę nad konfiguracją protokołów, portów itp. 
+
+ 
+
+Wady: 
+
+    Może wymagać konfiguracji serwera SMTP w przypadku wysyłania e-maili bezpośrednio. 
+
+    W przypadku bardziej skomplikowanych scenariuszy może być trudniejszy do dostosowania. 
+
+ 
+
+SendGrid: 
+
+Zalety: 
+
+    Łatwa integracja z usługą SendGrid. 
+
+    Zapewnia zaawansowane funkcje śledzenia i analizy dostarczalności. 
+
+    Daje możliwość wysyłania dużej ilości e-maili bez konieczności konfiguracji własnego serwera SMTP. 
+
+Wady: 
+
+    Wymaga klucza API, co może być uważane za dodatkowy krok w porównaniu do tradycyjnego SMTP. 
+
+    Rozwiązanie oparte na usłudze zewnętrznej, co może budzić obawy dotyczące prywatności danych. 
+
+ 
+
+SMTP: 
+
+Zalety: 
+
+    Bezpośrednia kontrola nad konfiguracją serwera SMTP. 
+
+    Może być bardziej elastyczny w dostosowywaniu do specyficznych wymagań. 
+
+    Nie wymaga korzystania z zewnętrznych usług. 
+
+Wady: 
+
+    Wymaga dostępu do serwera SMTP, co może być utrudnione w niektórych środowiskach. 
+
+    Może być bardziej skomplikowany w konfiguracji niż korzystanie z gotowych usług. 
+
+ 
+
+Gmail API: 
+
+Zalety: 
+
+    Zapewnia pełną kontrolę nad skrzynką pocztową Gmail. 
+
+    Umożliwia dostęp do zaawansowanych funkcji Gmail. 
+
+    Działa niezależnie od konieczności korzystania z zewnętrznych serwerów SMTP. 
+
+Wady: 
+
+    Wymaga autoryzacji i konfiguracji OAuth, co może być bardziej skomplikowane niż korzystanie z tradycyjnych metod. 
+
+    Przeznaczone głównie do obsługi kont Gmail. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+				 
+
+			 
+
+		 
+
+	 
